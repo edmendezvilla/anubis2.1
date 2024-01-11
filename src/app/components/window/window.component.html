@@ -1,0 +1,12 @@
+<!-- ventana.component.html -->
+<div class="ventana">
+    <!-- 🖼️ Representación de la ventana -->
+    <div class="estado-ventana">
+    La ventana está actualmente: <strong>{{ isOpen ? 'Abierta' : 'Cerrada'
+    }}</strong>
+    </div>
+    <!-- 🔘 Botón para abrir/cerrar la ventana -->
+    <button (click)="togglewindow()">
+    {{ isOpen ? 'Cerrar' : 'Abrir' }} ventana
+    </button>
+    </div>
